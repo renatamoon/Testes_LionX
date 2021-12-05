@@ -16,10 +16,10 @@ target_sum = 10
 
 def return_the_two_num_array(array_value, target_sum):
     list = []
-    lengh = len(array_value) - 1
-    lengh_int = len(array_value)    
-    for index in range(lengh):
-        for num in range(index + 1, lengh_int):            
+    length = len(array_value) - 1
+    length_int = len(array_value)    
+    for index in range(length):
+        for num in range(index + 1, length_int):            
             if array_value[index] + array_value[num] == target_sum:
                 list.append(array_value[index],)
                 list.append(array_value[num])

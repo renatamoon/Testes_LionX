@@ -12,12 +12,12 @@ sequence = [1, 6, -1, 10]
 
 def validation_subsequence_array(array_value, sequence):
     sequenc_cont = 0
-    lengh_sequence = len(sequence)
+    length_sequence = len(sequence)
     for i in array_value:
-        if sequenc_cont == lengh_sequence:
+        if sequenc_cont == length_sequence:
             if i == sequence[sequenc_cont]:
                 sequenc_cont += 1
-        if sequenc_cont == lengh_sequence:
+        if sequenc_cont == length_sequence:
             return True
         else:
             return False
